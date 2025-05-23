@@ -1,0 +1,12 @@
+sentence-transformers
+faiss-cpu
+fuzzywuzzy
+python-Levenshtein
+pandas
+numpy
+transformers
+nltk
+torch
+
+
+pip install -r requirements.txt
