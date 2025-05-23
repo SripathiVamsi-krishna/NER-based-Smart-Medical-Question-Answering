@@ -20,6 +20,7 @@ iv. Answer summarization using BART
 v. Fuzzy matching to enhance answer confidence
 
 💡 **How It Works**
+
 **Dataset Loading:** Medical QA pairs are loaded and cleaned from a CSV file.
 
 **NER Extraction:** Entities in the question are recognized using BioBERT.
@@ -54,10 +55,15 @@ Pandas and NumPy for data wrangling
 
 **🚀 Installation**
 git clone https://github.com/your-username/medical-question-answering.git
+
 cd medical-question-answering
+
 pip install -r requirements.txt
+
 **Dependencies (inferred from notebook):**
+
 pip install sentence_transformers faiss-cpu fuzzywuzzy python-Levenshtein pandas numpy transformers nltk
+
 
 
 **⚙️ Usage**
